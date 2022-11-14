@@ -10,7 +10,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 basic.forever(function () {
-    if (input.compassHeading() < 359 && (input.compassHeading() >= 315 || input.compassHeading() <= 45)) {
+    if (true) {
         basic.showString("N")
     } else if (input.compassHeading() < 90 && (input.compassHeading() > 45 || input.compassHeading() < 135)) {
         basic.showString("E")
